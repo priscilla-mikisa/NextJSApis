@@ -37,8 +37,8 @@ const singleUser = ({params}: {params:{id:string}}) => {
     }
     return(
         <div className="p-4">
-          <h2 className="text-2xl font-bold mb-4">{post.title}</h2>
-          <p className="text-gray-700 mb-4">{post.body}</p>
+          <h2 className="text-5xl font-bold mb-4">{post.title}</h2>
+          <p className="text-green-500-3xl mb-4">{post.body}</p>
           <div className="flex items-center mb-4">
            <span className="mr-4">Likes:{post.reactions.likes}</span>
            <span className="mr-4">Dislikes:{post.reactions.dislikes}</span>

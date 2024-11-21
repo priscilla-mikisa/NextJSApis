@@ -1,8 +1,3 @@
-import { log } from "console";
-import { headers } from "next/headers";
-
-
-
 export async function POST(request:Request){
   const {username, password} = await request.json();
   const baseUrl = process.env.BASE_URL;
